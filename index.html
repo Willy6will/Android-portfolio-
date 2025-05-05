@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Android Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Sam William</h1>
+    <p>Android Developer | Java | Spring Boot</p>
+    <button id="theme-toggle">Toggle Dark Mode</button>
+
+  </header>
+
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Notepad App</h3>
+      <p>CRUD notes app using Room, Navigation Component, and Material 3 UI</p>
+      <a href="">View Code</a>
+    </div>
+
+    <div class="project">
+      <h3>Football Card Game</h3>
+      <p>Strategy card game comparing EPL player stats offline</p>
+      <a href="https://github.com/yourname/football-card-game">View Code</a>
+    </div>
+
+    <div class="project">
+      <h3>OMR Sheet Scanner</h3>
+      <p>OpenCV-based app to detect and grade OMR answer sheets</p>
+      <a href="https://github.com/yourname/omr-scanner">View Code</a>
+    </div>
+
+    <div class="project">
+      <h3>Milk Ecommerce API</h3>
+      <p>Spring Boot backend API with login and product catalog</p>
+      <a href="https://github.com/yourname/milk-ecommerce">View Code</a>
+    </div>
+
+    <div class="project">
+      <h3>Retrofit + Spring Boot Demo</h3>
+      <p>Android app fetching data from a Spring Boot API</p>
+      <a href="https://github.com/yourname/retrofit-spring-demo">View Code</a>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java</li>
+      <li>Android SDK</li>
+      <li>Room Database</li>
+      <li>Retrofit</li>
+      <li>Spring Boot</li>
+      <li>MySQL</li>
+      <li>OpenCV</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: samwilliam0609@gmail.com</p>
+    <p>Phone :9080975708</p>
+    <p>GitHub: <a href="https://github.com/yourname">github.com/yourname</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sam-william-113ab4255">linkedin.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sam William</p>
+  </footer>
+  <script>
+    const toggleButton = document.getElementById('theme-toggle');
+    const body = document.body;
+  
+    toggleButton.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+    });
+  </script>
+  
+</body>
+</html>

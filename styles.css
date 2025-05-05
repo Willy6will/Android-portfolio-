@@ -1,0 +1,101 @@
+/* Base Styles (Light Mode) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e0f7fa, #80deea, #00acc1);
+    color: #333;
+    transition: background 0.5s, color 0.5s;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  section {
+    padding: 2rem 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #00acc1;
+    display: inline-block;
+  }
+  
+  .project {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: #ffffff50;
+    margin: 0.4rem 0;
+    padding: 0.6rem;
+    border-radius: 6px;
+    backdrop-filter: blur(4px);
+  }
+  
+  a {
+    color: #00796b;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    backdrop-filter: blur(4px);
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode header,
+  body.dark-mode .project,
+  body.dark-mode footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+  }
+  
+  body.dark-mode h2 {
+    border-color: #bbb;
+  }
+  
+  body.dark-mode a {
+    color: #80cbc4;
+  }
+  
